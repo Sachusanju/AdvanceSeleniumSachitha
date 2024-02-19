@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[DataBaseconnection is done]]>
+    </line>
+    <line>
+      <![CDATA[Extent Report formation]]>
+    </line>
+    <line>
+      <![CDATA[User is able to open empty browser]]>
+    </line>
+    <line>
+      <![CDATA[User is able to maximise the browser]]>
+    </line>
+    <line>
+      <![CDATA[User is able to login]]>
+    </line>
+    <line>
+      <![CDATA[User is able to click on Shopping Cart]]>
+    </line>
+    <line>
+      <![CDATA[User is able to logout]]>
+    </line>
+    <line>
+      <![CDATA[User is able to quit the demowebShop]]>
+    </line>
+    <line>
+      <![CDATA[Database connection is stoped]]>
+    </line>
+    <line>
+      <![CDATA[Extent Report formation end]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-02-12T18:11:54 IST" name="Default suite" finished-at="2024-02-12T18:12:29 IST" duration-ms="34118">
+    <groups>
+    </groups>
+    <test started-at="2024-02-12T18:11:54 IST" name="Default test" finished-at="2024-02-12T18:12:29 IST" duration-ms="34118">
+      <class name="testNgDemoWebShop.TC_Demo_002">
+        <test-method is-config="true" signature="dataBaseStart()[pri:0, instance:testNgDemoWebShop.TC_Demo_002@51dcb805]" started-at="2024-02-12T18:11:54 IST" name="dataBaseStart" finished-at="2024-02-12T18:11:54 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[DataBaseconnection is done]]>
+            </line>
+            <line>
+              <![CDATA[Extent Report formation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dataBaseStart -->
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:testNgDemoWebShop.TC_Demo_002@51dcb805]" started-at="2024-02-12T18:11:54 IST" name="browserSetup" finished-at="2024-02-12T18:12:17 IST" duration-ms="22412" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User is able to open empty browser]]>
+            </line>
+            <line>
+              <![CDATA[User is able to maximise the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method is-config="true" signature="login()[pri:0, instance:testNgDemoWebShop.TC_Demo_002@51dcb805]" started-at="2024-02-12T18:12:17 IST" name="login" finished-at="2024-02-12T18:12:25 IST" duration-ms="7904" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User is able to login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="userIsAbleToClickonShoppingCart()[pri:0, instance:testNgDemoWebShop.TC_Demo_002@51dcb805]" started-at="2024-02-12T18:12:25 IST" name="userIsAbleToClickonShoppingCart" finished-at="2024-02-12T18:12:27 IST" duration-ms="2138" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User is able to click on Shopping Cart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userIsAbleToClickonShoppingCart -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:testNgDemoWebShop.TC_Demo_002@51dcb805]" started-at="2024-02-12T18:12:27 IST" name="logOut" finished-at="2024-02-12T18:12:28 IST" duration-ms="1054" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User is able to logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:testNgDemoWebShop.TC_Demo_002@51dcb805]" started-at="2024-02-12T18:12:28 IST" name="tearDownBrowser" finished-at="2024-02-12T18:12:29 IST" duration-ms="543" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User is able to quit the demowebShop]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownBrowser -->
+        <test-method is-config="true" signature="dataBaseStopped()[pri:0, instance:testNgDemoWebShop.TC_Demo_002@51dcb805]" started-at="2024-02-12T18:12:29 IST" name="dataBaseStopped" finished-at="2024-02-12T18:12:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Database connection is stoped]]>
+            </line>
+            <line>
+              <![CDATA[Extent Report formation end]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dataBaseStopped -->
+      </class> <!-- testNgDemoWebShop.TC_Demo_002 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
